@@ -37,9 +37,16 @@ main {
   margin-top: 20px;
 }
 
-a{
+.tombol{
   text-decoration: none;
-  color: #fff;
+  color: black;
+  background-color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: 600;
+  transition: background-color 0.2s;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
 }
 
 .link-card {
